@@ -17,10 +17,6 @@ import DropDownPicker from "react-native-dropdown-picker";
 import AppLoading from "expo-app-loading";
 import * as Font from "expo-font";
 
-let customFonts = {
-  "Bubblegum-Sans": require("../assets/fonts/BubblegumSans-Regular.ttf")
-};
-
 export default class CreatePost extends Component {
   constructor(props) {
     super(props);
